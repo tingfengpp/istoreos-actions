@@ -82,7 +82,7 @@ sed -i 's/CONFIG_PACKAGE_luci-theme-bootstrap=y/CONFIG_PACKAGE_luci-theme-bootst
 # 添加第三方应用
 mkdir kiddin9
 pushd kiddin9
-git clone --depth=1 https://github.com/kiddin9/kwrt-packages .
+#git clone --depth=1 https://github.com/kiddin9/kwrt-packages .
 popd
 
 mkdir Modem-Support
